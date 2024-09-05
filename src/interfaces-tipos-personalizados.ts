@@ -12,7 +12,7 @@ function calculateDistance(pointA: Coordinate, pointB:Coordinate):number {
 
     const result = Math.sqrt(dx * dx + dy * dy);
 
-    return result
+    return result;
 }
 
 const coordinateA: Coordinate = {
@@ -33,7 +33,7 @@ interface Car {
     brand: string;
     model: string;
     year: number;
-    startEngine: ()=> void
+    startEngine: () => void;
 }
 
 const myCar: Car = {
